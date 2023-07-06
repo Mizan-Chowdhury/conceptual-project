@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* navbar starts here */
+.logo-photo{
+    width: 150px;
+    padding: 20px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    list-style: none;
+    padding: 1rem;
+}
+
+.menus-item{
+    display: flex;
+}
+.item{
+    margin-left: 30px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.item:hover{
+    color: grey;
+    cursor: pointer;
+}
+/* navbar ends here */
+
+/* banner starts here */
+.banner-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    background-image: url("png/background.png");
+}
+.photos{
+    width: 300px;
+}
+
+.heading{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.description{
+    font-size: 1rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    padding: 10px;
+    background-color: red;
+    border-radius: 0.3rem;
+    border: none;
+    color: white;
+}
+/* banner ends here */
+
+/* about starts here */
+.title{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+/* about ends here */
+
+/* services starts here */
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 100vh;
+}
+.container{
+    background-color:rgb(41, 41, 41);;
+}
+
+.box{
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    box-shadow: 1px 2px 15px grey;
+    background-color: black;
+    color: white;
+}
+.box-photo{
+    width: 100px;
+    margin-top: 30px;
+}
+.box-heding{
+    margin: 20px;
+}
+.box-description{
+    margin: 20px;
+    font-size:1rem;
+}
+.box-btn{
+    padding: 8px 30px;
+    background-color: gray;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.box-title{
+    
+    color: white;
+    
+}
+
+
+/* services ends here */
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    background-color: black;
+    color: white;
+}
+.footer-logo{
+    width: 20%;
+}
+.footer-heading{
+    margin-bottom: 30px;
+}
+.footer-last{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
