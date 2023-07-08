@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 
@@ -15,24 +16,38 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #000000;
+    background-color: black;
     color: white;
-    list-style: none;
-    padding: 1rem;
+}
+.menu-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+div ul a{
+    color: white;
+    margin: 20px;
+    font-size: 1.5rem;
 }
 
-.menus-item{
-    display: flex;
+div ul a:hover{
+    color: lightgray;
 }
-.item{
-    margin-left: 30px;
-    font-size: 1.5rem;
-    padding: 10px;
+div ul.dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightcoral;
+    padding: 5px;
 }
-.item:hover{
-    color: grey;
-    cursor: pointer;
+div li:hover .dropdown{
+    display: block;
+
+    
 }
+
+
+
 /* navbar ends here */
 
 /* banner starts here */
@@ -151,3 +166,22 @@
     text-align: center;
     padding: 20px;
 }
+
+/* form starts here */
+label{
+    display: block;
+    margin: 2rem;
+}
+/* form ends here */
+
+/* table starts here */
+table{
+    border-collapse: collapse;
+    
+
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+/* table ends here */
